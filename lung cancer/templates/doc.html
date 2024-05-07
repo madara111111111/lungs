@@ -1,0 +1,53 @@
+<!-- doc.html -->
+load %static%
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lung Cancer Doctors</title>
+    <style>
+        /* CSS for hover effect */
+        .doctor-card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .doctor-card:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* Style for doctor's name */
+        .doctor-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        /* Style for doctor's specialty and location */
+        .doctor-info {
+            font-size: 1rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lung Cancer Doctors</h1>
+    <div class="doctor-list">
+        <div class="doctor-card">
+            <h2 class="doctor-name">Dr. John Doe</h2>
+            <p class="doctor-info">Specialty: Pulmonology</p>
+            <p class="doctor-info">Location: New York</p>
+        </div>
+        <div class="doctor-card">
+            <h2 class="doctor-name">Dr. Jane Smith</h2>
+            <p class="doctor-info">Specialty: Oncology</p>
+            <p class="doctor-info">Location: Los Angeles</p>
+        </div>
+        <!-- Add more doctor cards here -->
+    </div>
+</body>
+</html>
